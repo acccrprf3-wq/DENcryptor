@@ -1,0 +1,31 @@
+DENcryptor documentation.
+
+v 1.0:
+	DENcryptor is open-source and free.
+
+	DENcryptor allows users to create a safe Fernet key and use that (or other valid keys) to encrypt or decrypt any message.
+
+	The "Generate safe fernet key" button creates a key using the python cryptography.Fernet module and Fernet.generate_key() command. Look here for more info: https://cryptography.io/en/latest/fernet/ or by clicking the "Fernet explanation" button in the app.
+
+	The user can input a simple message that will stay private and is encrypted by using the given Fernet key.
+	It isn't necessary that the given Fernet key is generated using this program, but it has to be 	generated with the same method.
+
+	The program will output an encrypted output (message+key), that message can be later decrypted on any device using the same key with the "Decrypt" button.
+
+	The decrypt button will output the decrypted original message if the key is valid.
+
+	The trash bin button allows to quickly empty the message and/or input key field.
+
+	The clipboard button allows to quickly copy the output key and/or output message field.
+
+	The Documentation button opens this file.
+
+	At the moment of the message there are any more buttons, but we plan to release a GitHub/Discord URL hook button.
+
+v 1.0.1:
+    -added "Fernet explanation" button to simply open a page that explains deeply how the Fernet alogirhtm works
+    -added an underline to text in top tab
+Thanks,
+the DENcryptor team.
+
+For a safer, open-source internet
