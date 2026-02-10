@@ -23,8 +23,14 @@ v 1.0:
 	At the moment of the message there are any more buttons, but we plan to release a GitHub/Discord URL hook button.
 
 v 1.0.1:
-    -added "Fernet explanation" button to simply open a page that explains deeply how the Fernet alogirhtm works
-    -added an underline to text in top tab
+	-added "Fernet explanation" button to simply open a page that explains deeply how the Fernet alogirhtm works
+	-added an underline to text in top tab
+
+v 1.1.0
+	Now live on GitHub!!!
+
+v 1.1.1
+	-added a "GitHub" button to open the official repo
 Thanks,
 the DENcryptor team.
 
